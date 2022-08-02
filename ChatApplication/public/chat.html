@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SENG 513 Assignment 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id = "views">
+        <div id = "sidebar">
+            <button class = "toggle-btn" onclick ="show()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h5 id = "user-header">Username</h5>
+            <form id = "login" action = "">
+              <input id = "username" placeholder = "Username" autocomplete="off"/>
+              <input id = "newColor" name = "newColor" type = "color" required />
+              <button id = "confirm">GO</button>
+            </form>
+            <ul id="users"></ul> 
+        </div>
+        <h1 id = "app-header">CHAT APP</h1>
+    </div>
+    <div id = "whitespace">hhh</div>
+    <div class="messages"></div>
+    <form id="form" action="">
+      <input id="input" placeholder="Enter Message" autocomplete ="off"  /><button>Send</button>
+    </form>
+    <script>
+        function show(){
+            document.getElementById("sidebar").classList.toggle('active');
+            document.getElementById("app-header").classList.toggle('active');
+        }
+    </script>
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.3/qs.min.js" 
+      integrity="sha512-juaCj8zi594KHQqb92foyp87mCSriYjw3BcTHaXsAn4pEB1YWh+z+XQScMxIxzsjfM4BeVFV3Ij113lIjWiC2w==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

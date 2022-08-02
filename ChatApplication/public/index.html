@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SENG 513 Assignment 2</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div id = "login-container">
+        <h1 id = 'login-header'>Login</h1>
+        <form id="login-form" action="chat.html" method="get">
+            <label for = "usernameChoice">Username</label><br/>
+            <input id = "usernameChoice" name = "usernameChoice" placeholder=" Enter Username" autocomplete ="off"  required/><br/>
+            <label for = "colorChoice">Color</label><br/>
+            <input id = "colorChoice" name = "colorChoice" type = "color" required />
+            <input type = 'submit' id = confirm-login value = "Submit"></input>
+        </form>
+        <p id = "or">OR</p>
+        <hr width = "90%">
+        <p id = "or">Login as Guest</p>
+        <form id = "guest-login" action="chat.html" method="get">
+            <input type = 'submit' value = "Submit" id = confirm-login></input>
+        </form>
+    </div>
+  </body>
+</html>
