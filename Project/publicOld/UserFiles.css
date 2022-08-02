@@ -1,0 +1,124 @@
+#container{
+    height: 600px;
+    width: 70%;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF2E63;
+}
+
+#row-1{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 15%;
+    background-color: #0E164D;
+    color: white;
+    border-style: solid;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+#menu{
+    height: 20px;
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#menu:hover{
+    background-color: #394287;
+    transition: ease-in-out 0.7s;
+}
+
+
+#menu > div{
+    width: 20px;
+    height: 3px;
+    background-color: #FF2E63;
+    margin: 2px 0;
+}
+
+#title{
+    flex-grow:9;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+#cancel{
+    flex-grow: 1;
+    background-color: #FF2E63;
+    border-radius: 3px;
+    height: 30px;
+    width: 70px;
+    margin-top: 30px;
+    margin-right: 20px;
+    font: 1rem 'Fira Sans', sans-serif;
+    border-style: none;
+    color: white;
+}
+
+#cancel:hover{
+    background-color: #fe6289;
+    transition: ease-in-out 0.7s;
+}
+
+#d-list{
+    margin-left: -40px;
+    margin-top: 0px;
+}
+
+#d-list > li{
+    list-style: none;
+    background-color: #394287;
+    height: 30px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#d-list > li:nth-child(2n + 1){
+    list-style: none;
+    background-color: #0E164D;
+}
+
+#row-2{
+    flex-grow: 5;
+    height: 80%;
+    overflow: auto;
+    background-color: #0E164D;
+}
+
+#row-3{
+    flex-grow: 1;
+    height: 15%;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #0E164D;
+    border-style: solid;
+    border-color: white;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+}
+
+#upload{
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #03CC87;
+    color:white;
+}
+
+#upload:hover{
+    background-color: #47ffbf;
+    transition: ease-in-out 0.7s;
+}

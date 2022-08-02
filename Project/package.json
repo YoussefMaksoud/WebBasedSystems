@@ -1,0 +1,42 @@
+{
+  "name": "exvault",
+  "version": "1.0.0",
+  "description": "File sharing website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireHeart2K/Group17_GroupProject_SENG513.git"
+  },
+  "author": [
+    {
+      "name": "Ezra John Guia"
+    },
+    {
+      "name": "Nathan Bhandari"
+    },
+    {
+      "name": "Irtaza Ansari"
+    },
+    {
+      "name": "Youssef Maksoud"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513/issues"
+  },
+  "homepage": "https://github.com/FireHeart2K/Group17_GroupProject_SENG513#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "express-socket.io-session": "^1.3.5",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.4.1"
+  }
+}

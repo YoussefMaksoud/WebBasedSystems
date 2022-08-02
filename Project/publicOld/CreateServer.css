@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.App {
+    background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: montserrat, arial, verdana;
+}
+
+.CreateServerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.BackButtonCreateServer{
+    margin-bottom: 15vh;
+    margin-right: 85%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(4, 202, 159);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 8px;
+    border-color: aqua;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
+.create-server-button{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 202, 159);
+    border: 2px solid rgb(0, 175, 143);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    padding: 10px;
+    margin-left: 27vw;
+    margin-bottom: 10px;
+    width: 46vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.CreateServerInputFields{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 175, 143);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 45vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+}
+
+#ServerDescription{
+    height: 30vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 175, 143);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 45vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+    inline-size: 45vw;
+    overflow-wrap: break-word;
+
+}
+
+input:focus {
+    border: 3px solid rgb(0, 255, 200);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+
+}

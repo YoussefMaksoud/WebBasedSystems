@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.body {
+    background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+	font-family: montserrat, arial, verdana;
+}
+
+.logo-container{
+    background-color: blue;
+    width: 98vw;
+    height: 95vh;
+    place-content: center;
+
+}
+
+.logo{
+    transform: scale(30%);
+
+}
+
+
+.logo-container > .logo-font{
+    color: aliceblue;
+    place-items: center;
+	padding-left: 0%;
+	padding-top: 10%;
+
+}

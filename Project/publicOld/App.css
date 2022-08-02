@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: montserrat, arial, verdana;
+}
+
+.logo{
+    height: auto;
+    max-width: 100%;
+
+}
+.logo-font{
+    padding-left: 35%;
+	justify-content: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px rgb(0, 156, 188);
+    transform: scale(200%);
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container .header {
+    flex: 20%;
+    display: grid;
+    place-items: center;
+}
+
+.form-container .body {
+    flex: 60%;
+}
+
+.form-container .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container .footer button {
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 0, 140);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    margin: 5px;
+}
+
+.login-button{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(4, 202, 159);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 8px;
+    border-color: aqua;
+    border-width: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    margin: 5px;
+}
+
+.Login-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-container-input {
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.BackButton{
+    margin-bottom: 30vh;
+    margin-right: 85%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(4, 202, 159);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 8px;
+    border-color: aqua;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.sign-up-container {
+    margin-left: 5%;
+    margin-bottom: 40vh;
+    margin-top: 2vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container input {
+    margin: 5px;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 25px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.personal-info-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-info-container input {
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+/* PROGRESS BAR */
+.progressbar {
+    width: 400px;
+    height: 10px;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.progressbar div {
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(98, 0, 255);
+}
+
+.other-info-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.other-info-container input {
+    margin: 5px;
+    width: 200px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid rgb(0, 175, 143);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+}
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+blockquote {
+    background: #eee;
+    border-radius: 5px;
+    margin: 16px 0;
+}
+
+blockquote p {
+    padding: 15px;
+}
+
+cite {
+    margin: 16px 32px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+[contenteditable='true'] {
+    caret-color: rgb(0, 207, 141);
+}
+
+
+input:focus {
+    border: 3px solid rgb(0, 255, 200);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+}

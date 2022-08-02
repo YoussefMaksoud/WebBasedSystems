@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.body {
+    background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    font-family: montserrat, arial, verdana;
+}
+
+.CreateServerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.BackButtonCreateServer{
+    margin-bottom: 25vh;
+    margin-right: 85%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(4, 202, 159);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 8px;
+    border-color: aqua;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
+.create-server-button{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 202, 159);
+    border: 2px solid rgb(0, 175, 143);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    padding: 10px;
+    margin-top: 3vh;
+    margin-left: 67.5vw;
+    /* margin-right: 30vw; */
+    margin-bottom: 10px;
+    width: 100px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+}
+
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.CreateServerInputFields{
+    margin-left: 1 auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 175, 143);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 45vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+    margin-left: 27vw;
+}
+
+
+
+input:focus {
+    border: 3px solid rgb(0, 255, 200);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+}

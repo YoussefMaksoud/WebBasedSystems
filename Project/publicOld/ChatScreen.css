@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.App {
+    /* background-image: url(https://cdn.discordapp.com/attachments/950503620951023626/962435061205041172/App-BG.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+body {
+    font-family: montserrat, arial, verdana;
+}
+
+.CreateServerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+}
+#SendFile{
+    background-image: url( addFileIcon.png );
+    background-size: 41.5px 41.5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
+#viewFiles{
+    background-image: url( files.png );
+    background-size: 41.5px 41.5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
+
+#pofileBadge{
+    image: url(profileBadge.png);
+    background-size: 41.5px 41.5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
+
+#chatPane{
+    background-color: rgb(16, 14, 84);
+    height: 85vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 5vh;
+    border-radius: 25px;
+    border: solid;;
+    border-width: 2px;
+    border-color: rgb(47, 255, 165);
+}
+#textBoxContainer{
+    height: 55px;
+    margin-left: 3.75%;;
+    /* margin-right: 20%; */
+    width: 86vw;
+    border-radius: 25px;
+    background-color: rgb(60, 60, 166);
+}
+
+#sendMessage{
+    border-radius: 3px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(4, 202, 159);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 15px;
+    border-color: aqua;
+    border-width: 1px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#textBox{
+    height: 20px;
+    /* margin-top: 77.5vh; */
+    margin-left: 3.75%;;
+    /* margin-right: 20%; */
+    width: 86vw;
+    border-radius: 25px;
+    background-color: rgb(60, 60, 166);
+    margin-top: 5px;
+    
+}
+#title{
+    margin: auto;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px white;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: rgb(16, 14, 84);
+    width: 96vw;
+    text-align: center;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(47, 255, 165);
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+#footer{
+
+    margin-top: 75vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+/* ============== */
+button {
+    /* display: inline-block; */
+    height: 200px;
+    padding: 2px;
+    margin: 2px;
+    vertical-align: top;
+    width: 400px;
+ }
+
+#alldogs-close-CSS {
+     background-image: url(addFileIcon.png );
+     background-size: 44px 44px;
+     height: 45px;
+     width: 45px;
+     border-radius: 25px;
+}
+/* ============== */
+.BackButtonCreateServer{
+    margin-bottom: 2vh;
+    margin-right: 85%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(4, 202, 159);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 8px;
+    border-color: aqua;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
+.create-server-button{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 202, 159);
+    border: 2px solid rgb(0, 175, 143);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    padding: 10px;
+    margin-left: 55vw;
+    margin-right: 30vw;
+    margin-bottom: 10px;
+    width: 112px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+}
+
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.CreateServerInputFields{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 175, 143);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 45vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+}
+
+#ServerDescription{
+    height: 30vh;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 175, 143);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 45vw;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 8px;
+    inline-size: 45vw;
+    overflow-wrap: break-word;
+
+}
+
+
+input:focus {
+    border: 3px solid rgb(0, 255, 200);
+    box-shadow: 0px 0px 5px rgb(0, 255, 200);
+}
